@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!-- Downloadable Image -->
+        <a href="./Assets/Image/chartimg.jpg" download style="max-width: 100%; height:auto;" width="100%">Download Image</a>
+
+        <!-- Embedding Audio -->
+        <audio src="./Assets/Audio/joshuaaudio.aac" controls></audio>
+
+        <!-- Embedding Video -->
+        <video src="./Assets/Video/RidgeRegressionmodel.ipynb - Colab (1).mp4" controls style="max-width: 100%; height:auto;" width="100%"></video>
+
+    <!-- Picture Element for Responsive Images -->
+    <picture>
+        <!-- Mobile -->
+        <source media="(max-width: 600px)" srcset="./Assets/Image/IMG_1205.jpg" >
+        <!-- Tablet -->
+        <source media="(max-width: 1024px)" srcset="./Assets/Image/IMG_1205.jpg" >
+        <!-- Desktop -->
+        <source media="(min-width: 1025px)" srcset="./Assets/Image/IMG_1205.jpg" >
+        
+        <!-- Fallback img with width attribute for responsiveness -->
+        <img  src="./Assets/Image/IMG_1205.jpg" alt="A picture representing myself" width="100%">
+    </picture>
+
+        <!-- Message About Myself -->
+        <p>
+            Yeah! I just finished my Statistics degree, few months ago. So I do data analyst and data science work. 
+            But made a transition into Web dev. That is why I joined Alt School.
+        </p>
+</body>
+</html>
